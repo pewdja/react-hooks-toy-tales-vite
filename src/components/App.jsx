@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import ToyForm from "./components/ToyForm";
-import ToyContainer from "./components/ToyContainer";
+import Header from "./Header";
+import ToyForm from "./ToyForm";
+import ToyContainer from "./ToyContainer";
 
 function App() {
   const [showForm, setShowForm] = useState(false);
